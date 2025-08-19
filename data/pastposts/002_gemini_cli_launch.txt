@@ -1,0 +1,9 @@
+【速報🚨】Gemini CLIが登場しました。
+
+①「npm install -g @google/gemini-cli」
+②「gemini」 
+
+のコマンドを打てば、
+無料で1日1000リクエストまで使える。
+
+詳細はリプへ👇
