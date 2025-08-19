@@ -1,0 +1,70 @@
+{
+  "content_metrics": {
+    "average_post_length": 150,
+    "character_usage": {
+      "min": 71,
+      "max": 280,
+      "median": 142
+    },
+    "line_breaks_usage": {
+      "average_per_post": 4.5,
+      "purpose": "視覚的な読みやすさと情報の構造化"
+    },
+    "emoji_frequency": {
+      "posts_with_emoji": 4,
+      "total_posts": 6,
+      "percentage": 66.7
+    }
+  },
+  "engagement_indicators": {
+    "hook_effectiveness": {
+      "speed_news": "非常に高い（4/6投稿で使用）",
+      "emotional_surprise": "高い（2/6投稿で使用）",
+      "problem_solving": "高い（1/6投稿で使用）"
+    },
+    "cta_presence": {
+      "posts_with_cta": 5,
+      "total_posts": 6,
+      "percentage": 83.3
+    },
+    "thread_usage": {
+      "thread_indicators": ["👇🧵", "リプへ👇", "リプ欄↓"],
+      "frequency": "高い（ほぼすべての投稿で使用）"
+    }
+  },
+  "topic_distribution": {
+    "ai_tools": 6,
+    "cli_tools": 4,
+    "productivity": 2,
+    "open_source": 1,
+    "mental_health": 1
+  },
+  "brand_mentions": {
+    "google": 3,
+    "gemini": 3,
+    "obsidian": 2,
+    "grok": 1,
+    "claude": 1,
+    "elon_musk": 1
+  },
+  "writing_consistency": {
+    "style_consistency": "高い - 一貫した驚きと興奮のトーン",
+    "format_consistency": "高い - 速報型フォーマットの多用",
+    "audience_targeting": "明確 - 開発者、AIエンスージアスト、生産性向上を求める人"
+  },
+  "optimization_opportunities": {
+    "hashtag_usage": {
+      "current": 0,
+      "recommended": "3-5個/投稿",
+      "suggestions": ["#AI", "#プログラミング", "#生産性向上", "#CLI", "#開発者向け"]
+    },
+    "visual_content": {
+      "current": "言及なし",
+      "recommended": "スクリーンショットや動画の活用"
+    },
+    "engagement_timing": {
+      "current": "不明",
+      "recommended": "投稿時間帯の最適化とA/Bテスト"
+    }
+  }
+}

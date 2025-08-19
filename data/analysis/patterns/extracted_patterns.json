@@ -1,0 +1,110 @@
+{
+  "hook_patterns": [
+    {
+      "pattern": "【速報🚨】{product_name}が{action}",
+      "description": "緊急性と重要性を伝える速報型フック",
+      "example": "【速報🚨】Gemini CLIが登場しました。",
+      "effectiveness": "high",
+      "use_case": "新製品・新機能のリリース時"
+    },
+    {
+      "pattern": "{emotional_expression}、{discovery}",
+      "description": "感情的な驚きから始める共感型フック",
+      "example": "あ、顎外れた、、",
+      "effectiveness": "high",
+      "use_case": "予想外の発見や革新的な機能を紹介"
+    },
+    {
+      "pattern": "{target_audience}は全員これを読むべき",
+      "description": "特定層への強い推奨型フック",
+      "example": "日々の情報が整理できないADHDの人は全員これを読むべき",
+      "effectiveness": "high",
+      "use_case": "特定の問題を抱える人向けのソリューション紹介"
+    }
+  ],
+  "body_patterns": [
+    {
+      "pattern": "bullet_points_features",
+      "description": "✅マークを使った機能の箇条書き",
+      "template": "✅ {feature1}\n✅ {feature2}\n✅ {feature3}",
+      "effectiveness": "high"
+    },
+    {
+      "pattern": "numbered_steps",
+      "description": "番号付きの具体的な手順",
+      "template": "①{step1}\n②{step2}",
+      "effectiveness": "high"
+    },
+    {
+      "pattern": "problem_solution_benefit",
+      "description": "問題→解決策→利点の流れ",
+      "template": "{problem}。{solution}することができる。{benefit}。",
+      "effectiveness": "high"
+    }
+  ],
+  "cta_patterns": [
+    {
+      "pattern": "simple_thread",
+      "template": "詳細はリプへ👇",
+      "effectiveness": "high"
+    },
+    {
+      "pattern": "thread_with_emoji",
+      "template": "リプ欄に{content}を貼っておく👇🧵",
+      "effectiveness": "high"
+    },
+    {
+      "pattern": "value_proposition",
+      "template": "【超有料級】{content}をリプ欄で解説👇",
+      "effectiveness": "very_high"
+    }
+  ],
+  "engagement_boosters": [
+    {
+      "type": "emotional_trigger",
+      "examples": ["やばい", "やばすぎる", "まじで", "顎外れた"],
+      "purpose": "感情的な共感を生む"
+    },
+    {
+      "type": "authority_reference",
+      "examples": ["イーロンまじでやばすぎる", "これが世界トップを走る企業の力"],
+      "purpose": "権威性による信頼性向上"
+    },
+    {
+      "type": "specific_numbers",
+      "examples": ["1日1000リクエスト", "30秒でお片付け", "10個にまとめてみた"],
+      "purpose": "具体性による説得力向上"
+    },
+    {
+      "type": "future_vision",
+      "examples": ["完全に未来が来た", "AI時代のOS"],
+      "purpose": "革新性と先進性のアピール"
+    }
+  ],
+  "linguistic_patterns": {
+    "sentence_starters": [
+      "【速報🚨】",
+      "あ、",
+      "うっそ、まじか",
+      "日々の{problem}人は"
+    ],
+    "connectors": [
+      "しかも",
+      "これで",
+      "〜すれば",
+      "〜のが"
+    ],
+    "intensifiers": [
+      "完全に",
+      "まじで",
+      "一気に",
+      "爆速化"
+    ],
+    "casual_expressions": [
+      "〜のやばい",
+      "〜すぎる",
+      "〜できるわ",
+      "〜なんて"
+    ]
+  }
+}

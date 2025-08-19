@@ -1,0 +1,140 @@
+{
+  "analysis_timestamp": "2025-08-19T00:00:00Z",
+  "posts_analyzed": 6,
+  "genre": "tech_news_and_tools",
+  "style_characteristics": {
+    "voice_tone": "驚きと興奮を伝える親しみやすいトーン。専門的な内容を分かりやすく伝える",
+    "personality_markers": [
+      "驚きの表現を多用",
+      "読者への直接的な呼びかけ",
+      "実用性重視",
+      "海外トレンドに敏感",
+      "ADHD等の特定層への共感的アプローチ"
+    ],
+    "unique_expressions": [
+      "やばい",
+      "やばすぎる",
+      "まじで",
+      "顎外れた",
+      "うっそ、まじか",
+      "これが世界トップを走る企業の力",
+      "完全に未来が来た"
+    ]
+  },
+  "vocabulary_patterns": {
+    "common_words": [
+      {"word": "速報", "frequency": 4},
+      {"word": "やばい", "frequency": 5},
+      {"word": "CLI", "frequency": 4},
+      {"word": "リプ欄", "frequency": 3},
+      {"word": "詳細", "frequency": 3},
+      {"word": "登場", "frequency": 3},
+      {"word": "まじで", "frequency": 2},
+      {"word": "自動化", "frequency": 2}
+    ],
+    "domain_terms": [
+      "CLI",
+      "Gemini",
+      "Grok",
+      "Obsidian",
+      "MCP",
+      "ワークフロー",
+      "オープンソース",
+      "MIT ライセンス",
+      "npm install",
+      "LLM フレームワーク",
+      "β版リリース",
+      "第二の脳"
+    ],
+    "complexity_level": "moderate",
+    "emoji_usage": {
+      "frequency": 0.67,
+      "common_emojis": ["🚨", "✅", "👇", "🧵"]
+    }
+  },
+  "sentence_patterns": {
+    "ending_types": {
+      "questions": 10,
+      "statements": 65,
+      "exclamations": 25
+    },
+    "common_endings": [
+      "〜のやばい",
+      "〜すぎる",
+      "リプ欄↓",
+      "詳細はリプへ👇",
+      "リプ欄に〜を貼っておく👇🧵"
+    ],
+    "cta_patterns": [
+      "詳細はリプへ👇",
+      "詳細はリプ欄↓",
+      "リプ欄に解説記事を貼っておく👇🧵",
+      "【超有料級】海外の動画をリプ欄で解説👇"
+    ]
+  },
+  "structure_templates": [
+    {
+      "template_name": "速報型",
+      "hook_pattern": "【速報🚨】で始まり、プロダクト名と重要な更新を即座に伝える",
+      "body_structure": "主要機能を箇条書きで3-5個リスト化、具体的なコマンドや使い方を提示",
+      "cta_pattern": "詳細はリプ欄へ誘導",
+      "usage_frequency": 4
+    },
+    {
+      "template_name": "驚き共感型",
+      "hook_pattern": "感情的な驚きの表現（あ、顎外れた / うっそ、まじか）で始める",
+      "body_structure": "発見や新機能の革新性を強調、具体的な利点を説明",
+      "cta_pattern": "スレッドやリプ欄への誘導",
+      "usage_frequency": 2
+    },
+    {
+      "template_name": "問題解決型",
+      "hook_pattern": "特定の悩みを持つ人への呼びかけ（〜の人は全員これを読むべき）",
+      "body_structure": "問題→解決策→具体的なツールの組み合わせ→効果",
+      "cta_pattern": "解説記事やリソースへの誘導",
+      "usage_frequency": 1
+    }
+  ],
+  "viral_elements": {
+    "high_engagement_patterns": [
+      "【速報🚨】での注意喚起",
+      "具体的な数字の提示（1日1000リクエスト、30秒）",
+      "感情的な驚きの表現",
+      "「全員〜すべき」という強い推奨",
+      "有名人・企業への言及（イーロン、Google）"
+    ],
+    "successful_hashtags": [],
+    "optimal_length": {
+      "min": 50,
+      "max": 280,
+      "average": 150
+    },
+    "successful_themes": [
+      "最新AIツールのリリース情報",
+      "CLI・開発者向けツール",
+      "生産性向上ツール",
+      "オープンソースプロジェクト",
+      "ADHD等の特定層向けソリューション"
+    ]
+  },
+  "recommendations": {
+    "strengths": [
+      "速報性と情報の鮮度",
+      "具体的な使用方法の提示",
+      "感情的な共感を生む表現",
+      "CTAが明確でエンゲージメントを促進",
+      "技術的内容を平易に説明"
+    ],
+    "improvement_areas": [
+      "ハッシュタグの活用が不足",
+      "画像や動画などのビジュアル要素への言及がない",
+      "時間帯やタイミングの最適化データが不明"
+    ],
+    "suggested_experiments": [
+      "関連ハッシュタグの追加（#AI #プログラミング #生産性向上）",
+      "スクリーンショットや図解の活用",
+      "投稿時間帯のA/Bテスト",
+      "スレッド形式での詳細解説の充実"
+    ]
+  }
+}
