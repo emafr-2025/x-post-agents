@@ -62,9 +62,10 @@ x-agent/
 │   ├── past_posts/            # 過去投稿（1ファイル1投稿）
 │   ├── system_prompts/        # ジャンル別システムプロンプト
 │   ├── research/              # リサーチ結果保存
-│   └── analysis/              # 分析結果保存
-│       ├── patterns/          # 抽出されたパターン
-│       ├── styles/            # スタイル分析結果
+│   ├── analysis/              # 分析結果保存
+│   │   ├── patterns/          # 抽出されたパターン
+│   │   └── styles/            # スタイル分析結果
+│   └── complete/              # 完成した投稿文を保存
 ```
 
 ## 🔄 ワークフロー
@@ -116,7 +117,7 @@ graph TD
 - **分析結果**: `data/analysis/` ディレクトリに自動保存
 - **リサーチ結果**: `data/research/` ディレクトリに JSON 形式で保存
 - **システムプロンプト**: `data/system_prompts/` にジャンル別で管理
-- **生成投稿**: 標準出力または指定ファイルに出力
+- **完成投稿文**: `data/complete/` ディレクトリにMarkdown形式で保存
 
 ### 推奨ワークフロー
 

@@ -107,7 +107,9 @@ You will:
 - Read research data from `data/research/*.json` files
 - Access system prompts from `data/system_prompts/*.txt` files
 - Reference style patterns from `data/analysis/styles/*.json` when specified
-- Output posts to stdout unless file output is specifically requested
+- **IMPORTANT**: Always save the final posts to `data/complete/` directory in Markdown format with timestamp
+- File naming convention: `data/complete/[topic]_[YYYY-MM-DD].md`
+- Include all variations, hashtags, and metadata in the saved file
 
 ## Error Handling
 

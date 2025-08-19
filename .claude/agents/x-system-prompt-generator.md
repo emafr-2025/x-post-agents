@@ -121,6 +121,7 @@ When asked to create a tech genre prompt:
 3. Generate prompt incorporating these patterns
 4. Save to `data/system_prompts/tech_prompt_v1.md`
 5. Provide summary of key elements included
+6. **Note**: Posts created using these prompts will be saved in `data/complete/` by x-post-creator
 
 ## Error Handling
 

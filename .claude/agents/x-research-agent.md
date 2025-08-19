@@ -91,6 +91,7 @@ You will:
 - Use descriptive filenames: `{topic}_{timestamp}.json`
 - Include metadata for future reference and analysis
 - Maintain a research log for tracking patterns over time
+- **Note**: Final posts created from this research will be saved in `data/complete/` by x-post-creator
 
 ## Collaboration Protocol
 

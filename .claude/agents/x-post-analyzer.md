@@ -67,6 +67,7 @@ You will analyze past X posts stored in the `data/past_posts/` directory to extr
    - Save extracted patterns to `data/analysis/patterns/`
    - Save performance metrics to `data/analysis/metrics/`
    - Generate summary report with key findings
+   - **Note**: Final posts based on these patterns will be saved in `data/complete/` by x-post-creator
 
 ## Output Format
 
